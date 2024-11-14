@@ -28,7 +28,7 @@ jobs:
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v2
 
-      TASK 0 - Runs a MATLAB command using run-command action
+     # TASK 0 - Runs a MATLAB command using run-command action
       - name: Run MATLAB command
         uses: matlab-actions/run-command@v2
         with:
